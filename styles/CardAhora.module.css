@@ -1,0 +1,38 @@
+.card {
+    margin: 1rem;
+    padding: 2rem;
+    text-align: left;
+    color: #FFF;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    max-width: 90vw;
+    min-height: 70vh;
+    background-color: #4B4B4B;
+    text-align: center;
+    /* Contenedor */
+    box-shadow: 1px 1px 12px 5px rgba(0, 0, 0, 0.1);
+
+  }
+ 
+  
+  .card:hover,
+  .card:focus,
+  .card:active {
+    
+  }
+  .container {
+    padding: 0 2rem;
+    margin-bottom: 8px;
+  }
+  .card h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+  }
+  
+  .card p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }

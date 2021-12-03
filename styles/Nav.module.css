@@ -1,0 +1,43 @@
+.nav {
+    height: 70px;
+    padding: 10px;
+    background: #F19106;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    margin-top: 10px;
+  }
+  
+  .nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-left: 10px;
+    padding-left: 80px;
+  }
+  
+  .nav ul li a {
+    margin: 5px 15px;
+  }
+
+  .catIcon {
+    color: white;
+    display: block;
+    text-align: center;
+}
+.catText {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: small;
+}
+.myGroup{
+  float:left;
+  padding:5px 10px;
+  margin-left: 5vw;
+}
